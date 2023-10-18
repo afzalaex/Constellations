@@ -40,7 +40,7 @@ function setup() {
 
       // Draw lines to connect to the previous circle (if it exists)
       if (prevCircle) {
-        stroke(0); // Set line color to white
+        stroke(0); // Set line color to black
         line(x, y, prevCircle.x, prevCircle.y);
       } else {
         // Set the firstCircle if prevCircle doesn't exist
@@ -53,7 +53,7 @@ function setup() {
   }
 
   // Draw a line connecting the last circle back to the first one to complete the circle
-  stroke(255); // Set line color to white
+  stroke(0); // Set line color to black
   line(prevCircle.x, prevCircle.y, firstCircle.x, firstCircle.y);
 }
 
