@@ -1,6 +1,6 @@
 let circles = [];
 let minDistance = 0;
-let numCircles = 80000; // Increase the number of circles to 8000
+let numCircles = 8000; // Set the number of circles
 let firstCircle; // Declare variables outside the loop
 let prevCircle;
 
